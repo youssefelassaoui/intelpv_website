@@ -34,9 +34,9 @@ const Navbar = () => {
                     e.target.src = "/placeholder.svg?height=32&width=32";
                   }}
                 />
-                <span className="ml-2 text-xl font-bold text-gray-900">
+                {/* <span className="ml-2 text-xl font-bold text-gray-900">
                   Intel.PV
-                </span>
+                </span> */}
               </a>
             </div>
           </div>
