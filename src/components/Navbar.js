@@ -27,7 +27,7 @@ const Navbar = () => {
               <a href="#home" className="flex items-center">
                 <img
                   className="h-8 w-auto"
-                  src="/logo.png"
+                  src="/intelligentpv-logo.png"
                   alt="Intel.PV"
                   onError={(e) => {
                     e.target.onerror = null;
