@@ -24,19 +24,19 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <a href="#" className="flex items-center">
+              <a href="#home" className="flex items-center">
                 <img
                   className="h-8 w-auto"
-                  src="/intelligentpv-logo.png"
+                  src="/logo.png"
                   alt="Intel.PV"
                   onError={(e) => {
                     e.target.onerror = null;
                     e.target.src = "/placeholder.svg?height=32&width=32";
                   }}
                 />
-                {/* <span className="ml-2 text-xl font-bold text-gray-900">
+                <span className="ml-2 text-xl font-bold text-gray-900">
                   Intel.PV
-                </span> */}
+                </span>
               </a>
             </div>
           </div>
