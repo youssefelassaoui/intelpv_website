@@ -2,7 +2,7 @@ const Team = () => {
   const team = [
     {
       name: "Ibtihal AIT ABDELMOULA",
-      role: "Phd in embedded systems",
+      role: "Project Manager",
       image: "/ibtihal.png",
     },
     {
